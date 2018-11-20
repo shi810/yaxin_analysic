@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>writter_new_user</name>
+        <value>com.yaxin.bigdata.analystic.mr.nu.NewUserOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_new_user</name>
+        <value>com.yaxin.bigdata.analystic.mr.nu.NewUserOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_active_user</name>
+        <value>com.yaxin.bigdata.analystic.mr.au.ActiveUserOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_active_user</name>
+        <value>com.yaxin.bigdata.analystic.mr.au.ActiveUserOutputWritter</value>
+    </property>
+
+    <property>
+    <name>writter_active_member</name>
+    <value>com.yaxin.bigdata.analystic.mr.am.ActiveMemberOutputWritter</value>
+</property>
+
+    <property>
+        <name>writter_browser_active_member</name>
+        <value>com.yaxin.bigdata.analystic.mr.am.ActiveMemberOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_new_member</name>
+        <value>com.yaxin.bigdata.analystic.mr.nm.NewMemberOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_new_member</name>
+        <value>com.yaxin.bigdata.analystic.mr.nm.NewMemberOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_member_info</name>
+        <value>com.yaxin.bigdata.analystic.mr.nm.NewMemberOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_session</name>
+        <value>com.yaxin.bigdata.analystic.mr.seesion.SessionOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_browser_session</name>
+        <value>com.yaxin.bigdata.analystic.mr.seesion.SessionOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_hourly_active_user</name>
+        <value>com.yaxin.bigdata.analystic.mr.au.ActiveUserOutputWritter</value>
+    </property>
+
+    <property>
+        <name>writter_local</name>
+        <value>com.yaxin.bigdata.analystic.mr.local.LocalWriter</value>
+    </property>
+
+</configuration>
